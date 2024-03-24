@@ -1,4 +1,4 @@
-from consumer import MyConsumer
+from kafka_classes.consumer import MyConsumer
 from config import bootstrap_servers, preprocessing_topic
 import numpy as np
 import pickle as pkl

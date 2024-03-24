@@ -1,6 +1,6 @@
 import streamlit as st 
 import json
-from consumer import MyConsumer
+from kafka_classes.consumer import MyConsumer
 from config import bootstrap_servers, metrics_topic
 import altair as alt
 import pandas as pd

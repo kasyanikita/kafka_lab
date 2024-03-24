@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torchvision import models
 from tqdm import tqdm
-from producer import MyProducer
+from kafka_classes.producer import MyProducer
 import json
 import time
 from config import bootstrap_servers, save_preprocessing_dir, img_dir, metrics_topic

@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import cv2
 import json
-from producer import MyProducer
+from kafka_classes.producer import MyProducer
 from config import bootstrap_servers, preprocessing_topic, annotation_path, img_dir
 
 
